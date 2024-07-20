@@ -4,7 +4,7 @@ services:
     env: docker
     name: anything
     region: Frankfurt
-    repo : https://github.com/Reflection-Mir/render-railway/tree/master
+    repo : https://github.com/Reflection-Mir/render-railway
     plan: free
     envVars:
       - key: PORT
