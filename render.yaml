@@ -1,7 +1,6 @@
 services:
   # A Docker web service
   - type: web
-    name: wzmlx
     env: docker
     region: Frankfurt
     plan: free
