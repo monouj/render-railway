@@ -2,6 +2,7 @@ services:
   # A Docker web service
   - type: web
     env: docker
+    name: modebomb
     region: Frankfurt
     plan: free
     envVars:
